@@ -1,0 +1,247 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+/* STYLE SECTIONING TAGS */
+body {
+ background-color: #D0CBCA; 
+ font-family:nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+header{
+  text-align: center;
+  color:#199115;
+  background-color:#FF4781;
+  font-size:25px;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+
+
+main{
+  text-align: center;
+  margin-top:0;
+  margin-bottom:0;
+  margin-left:10%;
+  margin-right:10%
+}
+
+footer{
+  display: block;
+}
+
+/* STYLE TEXT */
+p{
+  text-align: justify;
+  color:#525169;
+  font-weight: normal;
+  font-size:18px;
+  padding-top:1em;
+  padding-bottom:1em;
+}
+
+.titlezinho{
+  color:#199115;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background:#FF4781;
+  text-decoration: underline overline dotted  #F8F231;
+}
+
+.subtitle{
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  padding-top: 20px;
+  padding-bottom:0.5em;
+  color:#199115;
+}
+
+.rights{
+  background-color: #FF4781;
+  color: #199115;
+}
+
+a{
+  color:#525169;
+}
+a:hover{
+  background-color:#F8F231;
+}
+
+
+.quadro{
+  background:#F8F231;
+  border-radius:10px;
+  border-style: solid;
+  border-color: #199115;
+  border-width: 4px;
+
+  margin-top:30px;
+  margin-left: 7%;
+  margin-right:7%;
+}
+
+/* STYLE IMAGES */
+img {
+  display: block;      
+  width: 60%;          
+  height: auto;        
+  margin-left: auto;
+  margin-right: auto;
+  
+  
+  border-style: solid;
+  border-color: #FF4781;
+  border-width: 8px;
+  border-radius: 5px;
+
+}
+
+.flex-container {      
+  display: flex;       
+  flex-direction: row; 
+  flex-wrap: nowrap;   
+} 
+
+.flex-item {           
+  flex-basis: 100%;    
+  margin: 1%;          
+}
+
+.flex-img{
+  flex-basis: 100%;  
+  margin: 1%;
+  max-width:600px;
+  max-height:400px;
+  margin-bottom:1.5em;
+  margin-top: 1em;
+  margin-left:20%;
+}
+/* STYLE NAV BAR */
+
+ul{
+  list-style-type: none;
+  text-align:right;
+  background-color:#F8F231;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li{
+  display: inline;
+}
+li a{
+  text-decoration: none;
+  color: #525169;
+  font-size: 1.2em;
+  padding: 2em;
+}
+
+li a:hover{
+  background-color:#FF4781;
+}
+
+
+/* STYLE GENERATE A FACT KEY FEATURE */
+.genFact {
+  background: #F8F231;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 25px;
+
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #199115;
+}
+
+#factEducation {
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #FF4781;
+
+}
+
+#factGBV {
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.2em;
+  color: #FF4781;
+
+}
+
+.pfact{
+  font-family:nyt-imperial,georgia,'times new roman',times,serif;
+  font-weight: normal;
+  font-size:18px;
+  padding-top:1em;
+  padding-bottom:1em;
+  color:#199115;
+  text-align: center;
+}
+#factBtnEducation {
+  background: #FF4781;
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+  color: #525169;
+  font-size: 1em;
+}
+
+#factBtnGBV {
+  background: #FF4781;
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+  color: #525169;
+  font-size: 1em;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  
+  padding-top: 10px;
+}
+
+/*change css based on screen size*/
+@media screen and (max-width: 850px){
+
+  .flex-container{
+    flex-wrap:  wrap;
+  }
+}
